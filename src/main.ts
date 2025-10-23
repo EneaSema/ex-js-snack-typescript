@@ -7,9 +7,7 @@ if (typeof valore === "string") {
   console.log(valoreDouble);
 } else if (typeof valore === "boolean") {
   if ((valore = true)) {
-    console.log("SI");
-  } else {
-    console.log("NO");
+    console.log(valore ? "SI" : "NO");
   }
 } else {
   console.log("Valore non supportato");
